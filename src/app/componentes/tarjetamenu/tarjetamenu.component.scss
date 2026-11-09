@@ -1,0 +1,24 @@
+
+.tarjetamenu {
+  margin-left:  5vw;
+  margin-right: 5vw;
+  width: 40vw;
+  height: 40vw;
+  background-image: url('/assets/tarjeta.jpg');
+  background-size:cover;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textotarjeta {
+  text-anchor: end;
+  width: 40vw;
+  height: 20vw;
+  background-color: var(--fondo-secundario);
+  color: var(--texto-ordinario);
+  font-size: 14px;
+  padding-left:5px;
+
+}

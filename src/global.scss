@@ -34,4 +34,33 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import '@ionic/angular/css/palettes/dark.system.css';
+@import '@ionic/angular/css/palettes/dark.class.css';
+ion-content {
+  --background: var(--fondo-primario);
+}
+h1 {
+  font-family: Newsreader;
+  margin-left:20px;
+  font-size:32px;
+}
+.botonVolver{
+  color: var(--ion-color-primary);
+  border:none;
+  --background: transparent;
+  --box-shadow: none;
+  font-size:32px;
+}
+.boton{
+  font-size:32px;
+  font-family: New Amsterdam;
+  border: 3px solid var(--borde-boton);
+  --background: var(--ion-color-primary);
+  background: var(--ion-color-primary);
+  border-radius: 20px;
+  padding:4px;
+  text-align:center;
+}
+.linea{
+  border: none;
+  border-top: 1px solid var(--ion-color-primary);
+}

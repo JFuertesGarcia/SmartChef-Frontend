@@ -1,7 +1,19 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular';
 import {addIcons} from "ionicons";
-import {book, cube, grid, newspaper, person, pizza, time, water} from "ionicons/icons";
+import {
+  book,
+  cube,
+  fileTray,
+  fileTrayStacked,
+  grid,
+  newspaper,
+  person,
+  pizza,
+  returnDownBackOutline,
+  time,
+  water
+} from "ionicons/icons";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +22,6 @@ import {book, cube, grid, newspaper, person, pizza, time, water} from "ionicons/
 })
 export class AppComponent {
   constructor() {
-    addIcons({ pizza , grid, time, cube, book, newspaper, person})
+    addIcons({ pizza , grid, time, cube, book, newspaper, person, fileTrayStacked,returnDownBackOutline})
   }
 }

@@ -1,0 +1,38 @@
+.tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  border: 2px solid var(--ion-color-primary);
+  border-radius: 12px;
+  background: var(--fondo-tarjeta);
+  color: var(--texto-ordinario);
+  margin-bottom: 8px;
+}
+
+.etiqueta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--texto-invertido);
+  font-family: New Amsterdam;
+  font-size: 32px;
+}
+
+.foto {
+  flex-shrink: 0;
+  width: 64px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.nombre {
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.2;
+}

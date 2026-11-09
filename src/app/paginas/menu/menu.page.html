@@ -1,7 +1,4 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Menu</ion-title>
-  </ion-toolbar>
 </ion-header>
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -10,9 +7,30 @@
     </ion-toolbar>
   </ion-header>
   <div class="banner">
-    <img src="assets/logo.png" alt="Logo" class="BannerLogo"/>
-    <p class="Bienvenido">Bienvenido,</p>
-    <p class="Bienvenido">¿Qué cocinamos hoy?</p>
-    <ion-searchbar placeholder="Busca receta..."></ion-searchbar>
+    <img src="assets/logo.png" alt="Logo" class="bannerLogo"/>
+    <p class="bienvenido">Bienvenido,</p>
+    <p class="bienvenido">¿Qué cocinamos hoy?</p>
+    <ion-searchbar placeholder="Busca receta..." class="busqueda"></ion-searchbar>
   </div>
+  <div>
+    <ion-toggle alignment="center" class="toggle-nevera">Solo lo que tengo en casa</ion-toggle>
+  </div>
+  <div class="filtros">
+    <ion-button size="small" class="filtro">vegetariano</ion-button>
+    <ion-button size="small" class="filtro">sin gluten</ion-button>
+    <ion-button size="small" class="filtro">económico</ion-button>
+    <ion-button size="small" class="filtro">rápido</ion-button>
+  </div>
+  <div class="tarjetas">
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+    <app-tarjetamenu/>
+  </div>
+
 </ion-content>
